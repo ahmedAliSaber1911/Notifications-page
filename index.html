@@ -17,11 +17,11 @@
 <body>
   <div class="container">
     <nav class="navbar">
-      <h1>Notifications <span class="navNumber">3</span></h1>
-      <p class="unread">Make all as unread</p>
+      <h1>Notifications <span class="navNumber"></span></h1>
+      <p class="unread" id="unread">Make all as unread</p>
     </nav>
     <div class="natificationsContainer">
-      <div class="natification unreadNatification">
+      <div class="natification unreadNatification" >
         <div class="avatar">
           <img src="./assets/images/avatar-mark-webber.webp">
         </div>
@@ -37,13 +37,13 @@
         </div>
       </div>
 
-      <div class="natification">
+      <div class="natification unreadNatification"  >
         <div class="avatar">
           <img src="./assets/images/avatar-angela-gray.webp">
         </div>
         <div class="content">
           <div class="whathappen">
-            <span class="name">Angela Gray</span>followed you
+            <span class="name">Angela Gray</span>followed you<span class="point"></span>
           </div>
           <div class="time">
             5m ago
@@ -51,13 +51,14 @@
         </div>
       </div>
 
-      <div class="natification">
+      <div class="natification unreadNatification" >
         <div class="avatar">
           <img src="./assets/images/avatar-jacob-thompson.webp">
         </div>
         <div class="content">
           <div class="whathappen">
-            <span class="name">Jacob Thompson</span>has joined your group <span class="event">Chess Club</span>
+            <span class="name">Jacob Thompson</span>has joined your group <span class="chess">Chess Club</span>
+            <span class="point"></span>
           </div>
           <div class="time">
             1 day ago
@@ -123,8 +124,7 @@
         </div>
         <div class="content">
           <div class="whathappen">
-            <span class="name">Anna Kim</span>reacted to your recent post <span class="event">left the group Chess
-              Club</span>
+            <span class="name">Anna Kim</span>reacted to your recent post <span class="event">left the group</span> <span class="chess">Chess Club</span>
           </div>
           <div class="time">
             2 weeks ago
