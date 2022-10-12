@@ -129,3 +129,19 @@ img{
     font-weight: 800;
     margin-left: 5px;
 }
+
+@media screen and (max-width: 500px) {
+    .container{
+        width: 100%;
+        padding: 10px;
+    }
+    *{
+        font-size: 14px;
+    }
+    .navbar{
+        align-items: center;
+    }
+    p{
+        font-size: 14px;
+    }
+}
